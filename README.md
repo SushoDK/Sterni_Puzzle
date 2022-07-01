@@ -5,9 +5,14 @@ Python webserver for searching Sternburg crown caps for a puzzle/collection prom
 
 pip install -r requirements.txt
 
+
 (prepare images and download wheights on first run)
+
 python offline.py
 
+
 (run server on Powershell in local network)
+
 $env:FLASK_APP = "server.py"
+
 python -m flask run --host=0.0.0.0
